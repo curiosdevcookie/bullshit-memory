@@ -1,8 +1,9 @@
 const config = {
-    env: "local",
-    sessionName: "LOCAL_DEV_SESSION",
-    projectId: "65da39e5573f565f617e",
+    env: "prod",
+    context: "/bullshit-memory/",
+    sessionName: "PROD_SESSION",
+    projectId: "663ccc32dae944310b32",
     endpoint: "https://db.myglobal.ws/v1",
-    redirect: "http://localhost:5502/?status=okay",
-    version: "development"
+    redirect: "https://games-for-hire.github.io/bullshit-memory/?status=okay",
+    version: "8a6a3738"
 }
